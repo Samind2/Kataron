@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Ts01,Chrome 118.0.0.0,,,16-01-2024 15:15:25,16-01-2024 15:16:04,38.776s,PASSED
+,,,,,,,
+Test Cases/Search By Keyword kru,Chrome 118.0.0.0,,,16-01-2024 15:15:25,16-01-2024 15:15:31,6.020s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,16-01-2024 15:15:26,16-01-2024 15:15:27,1.314s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 118.0.0.0,,,16-01-2024 15:15:27,16-01-2024 15:15:29,1.888s,PASSED
+"setText(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""kru"")",Chrome 118.0.0.0,,,16-01-2024 15:15:29,16-01-2024 15:15:31,1.738s,PASSED
+"click(findTestObject(""Object Repository/Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 118.0.0.0,,,16-01-2024 15:15:31,16-01-2024 15:15:31,0.734s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,16-01-2024 15:15:31,16-01-2024 15:15:31,0.143s,PASSED
+,,,,,,,
+Test Cases/Search By Keyword npru,Chrome 118.0.0.0,,,16-01-2024 15:15:31,16-01-2024 15:15:34,2.924s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,16-01-2024 15:15:31,16-01-2024 15:15:32,0.591s,PASSED
+"navigateToUrl(""https://www.google.com/"")",Chrome 118.0.0.0,,,16-01-2024 15:15:32,16-01-2024 15:15:33,0.854s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/textarea_q""), ""npru"")",Chrome 118.0.0.0,,,16-01-2024 15:15:33,16-01-2024 15:15:34,0.571s,PASSED
+"click(findTestObject(""Object Repository/Page_Google/span_NPRU""))",Chrome 118.0.0.0,,,16-01-2024 15:15:34,16-01-2024 15:15:34,0.748s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,16-01-2024 15:15:34,16-01-2024 15:15:34,0.099s,PASSED
+,,,,,,,
+Test Cases/Search By Keyword pbru,Chrome 118.0.0.0,,,16-01-2024 15:15:34,16-01-2024 15:16:04,29.679s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,16-01-2024 15:15:34,16-01-2024 15:15:35,0.543s,PASSED
+"navigateToUrl(""https://www.yahoo.com/"")",Chrome 118.0.0.0,,,16-01-2024 15:15:35,16-01-2024 15:16:00,24.589s,PASSED
+"setText(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/input_p""), ""pbru"")",Chrome 118.0.0.0,,,16-01-2024 15:16:00,16-01-2024 15:16:01,1.389s,PASSED
+"click(findTestObject(""Page_Yahoo  Mail, Weather, Search, Politics_802e32/buttonybar-search""))",Chrome 118.0.0.0,,,16-01-2024 15:16:01,16-01-2024 15:16:02,0.607s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏเพชรบุรี"", false)",Chrome 118.0.0.0,,,16-01-2024 15:16:02,16-01-2024 15:16:04,2.353s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,16-01-2024 15:16:04,16-01-2024 15:16:04,0.131s,PASSED
